@@ -1,0 +1,12 @@
+N = int(input("Введите N (>0): "))
+    if N <= 0:
+        print("ошибка: N должно быть положительным")
+    else:
+        k = 1
+        s = 0.0
+        while k <= N:
+            term = 1 + 0.1 * k
+            sign = (-1) ** (k + 1)   # +1, -1, +1, ...
+            s += sign * term
+            k += 1
+        print(s)
