@@ -1,0 +1,8 @@
+people = {"Андрей": 32, 
+          "Виктор": 29, 
+          "Максим": 18, 
+          "Алиса": 20, 
+          "Ксения": 17,  
+          "Настя": 66}
+average = sum(people.values()) / len(people)
+average
